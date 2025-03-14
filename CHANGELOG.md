@@ -1,3 +1,17 @@
+# [4.0.0](https://github.com/maksim201281/releases/compare/v3.1.0...v4.0.0) (2025-03-14)
+
+### Features
+
+- update index.html ([4a88f30](https://github.com/maksim201281/releases/commit/4a88f30aa2b088106079384bb98250d3e4da3f2e))
+
+### Other
+
+- upd index.html ([c85108a](https://github.com/maksim201281/releases/commit/c85108ac23af3822b79e2c99e50f81b78ed8b47f))
+
+### BREAKING CHANGE
+
+- Refactored index.html, causing major version update
+
 # [3.1.0](https://github.com/maksim201281/releases/compare/v3.0.1...v3.1.0) (2025-03-14)
 
 ### Features
