@@ -1,0 +1,23 @@
+# 1.0.0 (2025-03-14)
+
+### Features
+
+- initial release ([2ad35e9](https://github.com/maksim201281/releases/commit/2ad35e910b3b17a639d5a0db55d5da4fe3104a8e))
+- initial release ([6a6ecfc](https://github.com/maksim201281/releases/commit/6a6ecfc3be89c7532b8bdbae3e5bdd8f6fe0c95f))
+- initial release ([6b9e158](https://github.com/maksim201281/releases/commit/6b9e1586013b5138594f042fbf27996fab6c7cf6))
+- initial release ([ab53214](https://github.com/maksim201281/releases/commit/ab53214bfb7f9c75a4a70deb32ab4eadfa530b2d))
+- initial release ([d254a08](https://github.com/maksim201281/releases/commit/d254a0839bba299545033197516950721010b1d0))
+- initial release ([c8fbfa5](https://github.com/maksim201281/releases/commit/c8fbfa57ab53191c9dcd9c460e1c8ab4da02d09e))
+
+### Other
+
+- Initial commit ([dec3ba7](https://github.com/maksim201281/releases/commit/dec3ba726d96814695bb0a2832727ac9ac8a3f00))
+
+### BREAKING CHANGE
+
+- first stable version 1.0.0
+- first stable version 1.0.0
+- first stable version 1.0.0
+- first stable version 1.0.0
+- first stable version 1.0.0
+- first stable version 1.0.0
