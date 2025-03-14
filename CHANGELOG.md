@@ -1,3 +1,13 @@
+# [3.0.0](https://github.com/maksim201281/releases/compare/v2.0.0...v3.0.0) (2025-03-14)
+
+### Features
+
+- initial release ([a8995b2](https://github.com/maksim201281/releases/commit/a8995b2fe465449d48a493fa712273140297bf0e))
+
+### BREAKING CHANGE
+
+- first stable version 1.0.0
+
 # [2.0.0](https://github.com/maksim201281/releases/compare/v1.0.0...v2.0.0) (2025-03-14)
 
 ### Features
