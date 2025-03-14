@@ -1,0 +1,53 @@
+name: Release & Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Release new version
+        id: release
+        uses: cycjimmy/release-me-action@v2
+        with:
+          release_rules: |
+            [
+              { "release": "major", "type": "breaking" },
+              { "release": "minor", "type": "feat" },
+              { "release": "patch", "type": "fix" }
+            ]
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get new version
+        run: echo "VERSION=${{ steps.release.outputs.version }}" >> $GITHUB_ENV
+
+      - name: Create version.json
+        run: |
+          echo '{
+            "version": "'${VERSION}'",
+            "build_date": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'",
+            "description": "Test versioning for S3 static site"
+          }' > version.json
+
+      - name: Upload version.json to S3
+        run: aws s3 cp version.json s3://test-versioning-buckets/version.json --acl public-read
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: us-east-1
+
+      - name: Sync all files to S3
+        run: aws s3 sync . s3://test-versioning-buckets --delete --acl public-read
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: us-east-1
