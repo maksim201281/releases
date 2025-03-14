@@ -22,12 +22,6 @@ jobs:
         id: release
         uses: ridedott/release-me-action@v3.10.7
         with:
-          release_rules: |
-            [
-              { "release": "major", "type": "breaking" },
-              { "release": "minor", "type": "feat" },
-              { "release": "patch", "type": "fix" }
-            ]
           release-branches: '["main"]'
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
