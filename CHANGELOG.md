@@ -1,3 +1,9 @@
+# [3.1.0](https://github.com/maksim201281/releases/compare/v3.0.1...v3.1.0) (2025-03-14)
+
+### Features
+
+- upd index.html ([59cbda1](https://github.com/maksim201281/releases/commit/59cbda1cd3ac17466fe9457fef1bb98a8e6e9c99))
+
 ## [3.0.1](https://github.com/maksim201281/releases/compare/v3.0.0...v3.0.1) (2025-03-14)
 
 ### Bug Fixes
