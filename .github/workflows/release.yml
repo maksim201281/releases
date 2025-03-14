@@ -29,7 +29,8 @@ jobs:
               { "release": "patch", "type": "fix" }
             ]
           release-branches: '["main"]'
-          github_token: ${{ secrets.GH_PAT }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Get new version
         run: echo "VERSION=${{ steps.release.outputs.version }}" >> $GITHUB_ENV
