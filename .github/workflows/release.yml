@@ -35,7 +35,7 @@ jobs:
             "version": "'${VERSION}'",
             "build_date": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'",
             "description": "Test versioning for S3 static site"
-          }' > version.json
+          }' > version
 
       - name: Sync all files to S3
         run: aws s3 sync . s3://test-versioning-buckets --delete
