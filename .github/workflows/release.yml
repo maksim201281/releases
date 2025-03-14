@@ -25,6 +25,7 @@ jobs:
               { "release": "minor", "type": "feat" },
               { "release": "patch", "type": "fix" }
             ]
+          release-branches: '["main"]'
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get new version
