@@ -1,3 +1,9 @@
+## [4.0.4](https://github.com/maksim201281/releases/compare/v4.0.3...v4.0.4) (2025-03-14)
+
+### Bug Fixes
+
+- upd ([3083233](https://github.com/maksim201281/releases/commit/3083233d619ed9c36e22526896fd3280b394bfd9))
+
 ## [4.0.3](https://github.com/maksim201281/releases/compare/v4.0.2...v4.0.3) (2025-03-14)
 
 ### Bug Fixes
