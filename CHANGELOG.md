@@ -1,3 +1,9 @@
+## [4.0.1](https://github.com/maksim201281/releases/compare/v4.0.0...v4.0.1) (2025-03-14)
+
+### Bug Fixes
+
+- upd deploy ([e95cddb](https://github.com/maksim201281/releases/commit/e95cddb1a2e964f2de96179763db853cded7c530))
+
 # [4.0.0](https://github.com/maksim201281/releases/compare/v3.1.0...v4.0.0) (2025-03-14)
 
 ### Features
