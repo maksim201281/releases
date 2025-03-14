@@ -11,13 +11,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.1.0
         with:
           fetch-depth: 0
 
       - name: Release new version
         id: release
-        uses: cycjimmy/release-me-action@v2
+        uses: ridedott/release-me-action@v3.10.7
         with:
           release_rules: |
             [
