@@ -1,3 +1,10 @@
+# [6.0.0](https://github.com/maksim201281/releases/compare/v5.0.0...v6.0.0) (2025-03-17)
+
+### Other
+
+- sdafsdfsdf ([5da6838](https://github.com/maksim201281/releases/commit/5da6838a492a412bfd90f19d44120013466ec010))
+- new version major ([100a941](https://github.com/maksim201281/releases/commit/100a941d936cadab488e6c16781ad69674b78a74))
+
 # [5.0.0](https://github.com/maksim201281/releases/compare/v4.0.4...v5.0.0) (2025-03-17)
 
 ### Features
