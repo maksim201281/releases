@@ -1,3 +1,19 @@
+# [5.0.0](https://github.com/maksim201281/releases/compare/v4.0.4...v5.0.0) (2025-03-17)
+
+### Features
+
+- something ([06ee3af](https://github.com/maksim201281/releases/commit/06ee3af284513e6cb5e19584aec40c0ba83582a5))
+
+### Other
+
+- feat!: introduce new versioning ([63050a4](https://github.com/maksim201281/releases/commit/63050a4c9222fbc89b1a2b1694ee057cd796f120))
+- BREAKING CHANGE: next version ([4189dbf](https://github.com/maksim201281/releases/commit/4189dbf2cc11136f98902d570af5a30c4583328e))
+- BREAKING CHANGE next version ([12462f2](https://github.com/maksim201281/releases/commit/12462f21132d9dc306159ccaa24c763b51c47c4d))
+
+### BREAKING CHANGE
+
+- new ver
+
 ## [4.0.4](https://github.com/maksim201281/releases/compare/v4.0.3...v4.0.4) (2025-03-14)
 
 ### Bug Fixes
